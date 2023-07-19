@@ -15,6 +15,11 @@ import './App.css';
   // Decide color scheme
   // Decide font
 // 3. Create root css variables for the color scheme and given them semantic names
+  // Primary color
+  // Secondary color
+  // Font color
+  // Background color
+  // Bootstrap?
 // 4. Plan inside the components
   // Navbar
   // About me
