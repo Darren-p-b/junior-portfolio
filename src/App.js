@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import AboutMe from './components/About-me/About-me';
 
 // Time to build a portfolio!
 // 0. Are there any requirements? Packages? Libraries? 
@@ -38,6 +38,7 @@ function App() {
     <div className="App">
       <header>
         <Navbar />
+        <AboutMe />
       </header>
     </div>
   );
