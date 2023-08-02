@@ -1,0 +1,30 @@
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+.introduction {
+    display: flex;
+    margin: 2rem;
+}
+
+.introduction p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000000;
+    align-self: center;
+}
+
+.portrait{
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #A076F9;
+    margin-left: auto;
+    display: block;
+}

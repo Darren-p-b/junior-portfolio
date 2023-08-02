@@ -20,7 +20,14 @@
     margin: 0;
 }
 
+.navbarPartition {
+    font-size: 60px;
+    padding-bottom: 0.3em;
+    color: #6528F7 ;
+}
+
 .navbar-ul{
+    display: flex;
     justify-content: flex-start;
     list-style-type: none;
 }
@@ -29,14 +36,32 @@
     display: inline-block;
     margin: 0 20px;
     color: aqua;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #6528F7;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #A076F9;
+}
+
+.socialsContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
 }
 
 .navbar-socials {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     padding: 0;
     margin: 0;
 }

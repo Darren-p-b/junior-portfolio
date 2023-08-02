@@ -36,10 +36,10 @@ import AboutMe from './components/About-me/About-me';
 function App() {
   return (
     <div className="App">
-      <header>
-        <Navbar />
-        <AboutMe />
-      </header>
+        <header>
+          <Navbar />
+          <AboutMe />
+        </header>
     </div>
   );
 }

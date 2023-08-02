@@ -24,14 +24,17 @@ const Navbar = () => {
 return (
     <div id='navbar'>
         <img src={LinkedIn} alt="My logo" className='navbar-logo'/>
+        <p className="navbarPartition">|</p>
         <ul className="navbar-ul">
             <li><a href='#home'>Home</a></li>
             <li><a href='#about'>About</a></li>
             <li><a href='#projects'>Projects</a></li>
             <li><a href='#contact'>Contact</a></li>
         </ul>
-        <a href="https://www.linkedin.com/in/d-p-broomhall-ffx4shb19ffx4shb19/"><img src={LinkedIn} alt="Linked-in logo" className='navbar-socials' /></a>
-        <a href="https://github.com/Darren-p-b"><img src={Github} alt="Github logo" className='navbar-socials'/></a>
+        <div className='socialsContainer'>
+            <a href="https://www.linkedin.com/in/d-p-broomhall-ffx4shb19ffx4shb19/"><img src={LinkedIn} alt="Linked-in logo" className='navbar-socials' /></a>
+            <a href="https://github.com/Darren-p-b"><img src={Github} alt="Github logo" className='navbar-socials'/></a>
+        </div>
     </div>
 )}
 // // {/* <nav className="navbar navbar-expand-lg navbar-light bg-light">
